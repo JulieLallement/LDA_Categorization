@@ -10,11 +10,12 @@ Assurez-vous d'installer les dépendances nécessaires en exécutant les command
 pip install gensim
 pip install pyLDAvis
 pip install --upgrade pyLDAvis
-pip install nltk
+pip install nltk 
+```
 
 ## Utilisation
 
-- Importation  des bibliothèques nécessaires
+- Importation des bibliothèques nécessaires
 - Chargement de vos données normalisées (tokenizées, suppression des stopwords...), adaptées pour le modèle LDA
 - Entraînement de votre modèle LDA avec la bibliothèque Gensim
 - Analyse des topics et regroupement en catégorie
